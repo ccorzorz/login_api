@@ -1,0 +1,10 @@
+##code by ccorz,Blog:http://www.cnblogs.com/ccorz/,Mail:ccniubi@163.com
+登陆接口以及账号注册
+user_list为用户和相关密码文件
+user_lock为被锁定用户的账号信息文件
+执行python login_system.py命令
+step1.输入登陆账户
+step2.输入账户密码
+step3.如果密码错误,需重新输入密码,如果超过3次验证不成功,系统将锁定您的账户
+step4.如果数据库中无此用户,系统将提示用户是否用此用户名注册,输入"y"或者"q"可选择继续注册或者退出系统
+step5.需输入两次注册密码,并两次输入密码要一致,否则注册失败
